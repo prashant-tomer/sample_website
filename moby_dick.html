@@ -3,18 +3,21 @@
 
     <head>
        <meta charset="utf-8">
+        <style>
+         a.links:hover{color:green;font-size: 120%;}   
+        </style>
      </head>
 
     <body>
-       <div>
-         <a href="index.html">Home</a>
-         <a href="tags.html">Html Tags</a>
-         <a href="moby_dick.html">Moby Dick</a>
+       <div style="text-align:right;">
+         <a class="links" href="index.html" style="text-decoration: none; :active ;">Home</a>
+         <a class="links" href="tags.html" style="margin:0 0 0 10px; text-decoration: none;">Html Tags</a>
+         <a class="links" href="moby_dick.html" style="margin:0 0 0 10px; text-decoration: none;">Moby Dick</a>
        </div>
 
       <header>
-        <h1>A Softcover Book Report</h1>
-        <h2>Moby-Dick (or, The Whale)</h2>
+        <h1 style="text-align: center">A Softcover Book Report</h1>
+        <h2 style="text-align: center">Moby-Dick (or, The Whale)</h2>
     </header>
 
     <div>
@@ -32,16 +35,17 @@
     </div>
 
     <a href="https://commons.wikimedia.org/wiki/File:Sperm_whale_pod.jpg">
-      <img src="images/sperm_whales.jpg">
+      <img src="images/sperm_whales.jpg" style="display: block; margin: 0 auto;" >
     </a>
 
-    <div>
+    <div style="width: 500px; margin:20px auto; padding: 30px; background-color: #fafafa;">
 
       <h3>Moby-Dick: A classic tale of the sea</h3>
 
       <a href="https://www.softcover.io/read/6070fb03/moby-dick"
          target="_blank">
-        <img src="images/moby_dick.png" alt="Moby Dick">
+        <img src="images/moby_dick.png" alt="Moby Dick" style="height: 200px; float: left;
+                  margin-right:40px;">
       </a>
 
       <p>
@@ -51,9 +55,9 @@
           by Herman Melville begins with these immortal words:
       </p>
 
-      <blockquote>
+      <blockquote font style="font-style: italic; font-size: 20px;">
         <p>
-          <span>Call me Ishmael.</span> Some years ago–never mind how long
+          <span style="font-size: 24px; font-weight: bold; font-style: normal; color: #ff0000">Call me Ishmael.</span> Some years ago–never mind how long
           precisely–having little or no money in my purse, and nothing
           particular to interest me on shore, I thought I would sail about a
           little and see the watery part of the world. It is a way I have of
